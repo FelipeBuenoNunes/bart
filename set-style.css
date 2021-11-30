@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    background: url(https://cdn.pixabay.com/photo/2014/04/02/17/04/green-307835_960_720.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5%;
+    height: 80vh;
+    width: 80%;
+}
+
+#quadro{
+    text-align: justify;
+    font-size: 4.5vh;
+}
+
+body{
+    background: linear-gradient(to left, #909090, #d9d9d9);
+}

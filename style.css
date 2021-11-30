@@ -1,0 +1,22 @@
+main > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+input[type = 'button']{
+    width: 60%;
+    height: 4vh;
+    border-radius: 0.4vw;
+    margin-bottom: 5vh;
+}
+
+main > p{
+    align-self: flex-start;
+    margin-left: 12vw;
+}
+
+article > div{
+    height: 100%;
+    width: 100%;
+}
